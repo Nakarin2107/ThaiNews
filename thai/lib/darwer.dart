@@ -1,10 +1,11 @@
-// ignore_for_file: prefer_const_constructors
+// ignore_for_file: prefer_const_constructors, unnecessary_import
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:homework5/my_home_page.dart';
-import 'package:homework5/test.dart';
-import 'package:homework5/thai%20news.dart';
+import 'package:get/get_core/src/get_main.dart';
+import 'my_home_page.dart';
+import 'test.dart';
+import 'thai news.dart';
 
 class MyDrawer extends StatelessWidget {
   const MyDrawer({super.key});

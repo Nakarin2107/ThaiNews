@@ -2,8 +2,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:homework5/darwer.dart';
-import 'package:homework5/test.dart';
+import 'darwer.dart';
+import 'test.dart';
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({Key? key}) : super(key: key);
@@ -55,7 +55,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 Get.to(() => TestLogin());
               },
               style: ElevatedButton.styleFrom(
-                backgroundColor: const Color.fromARGB(255, 149, 150, 151),
+                backgroundColor: Color.fromARGB(255, 186, 217, 249),
               ),
               child: Padding(
                 padding:

@@ -3,9 +3,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
-import 'package:homework5/darwer.dart';
-import 'package:homework5/my_home_page.dart';
-import 'package:homework5/thai%20news.dart';
+
+import 'darwer.dart';
+import 'my_home_page.dart';
+import 'thai news.dart';
 
 class TestLogin extends StatefulWidget {
   @override
