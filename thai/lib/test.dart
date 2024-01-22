@@ -5,9 +5,7 @@ import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:homework5/darwer.dart';
 import 'package:homework5/my_home_page.dart';
-// import 'package:homework5/news.dart';
 import 'package:homework5/thai%20news.dart';
-// import 'package:homework5/thai%20news.dart';
 
 class TestLogin extends StatefulWidget {
   @override
@@ -30,9 +28,8 @@ class _LoginScreenState extends State<TestLogin> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            // Logo หรือรูปภาพสำหรับแสดงที่หน้า login
             Image.asset(
-              "images/007.png", // ปรับเป็นที่อยู่ของรูปภาพของคุณ
+              "images/007.png",
               height: 100,
             ),
             SizedBox(height: 20),
@@ -52,7 +49,6 @@ class _LoginScreenState extends State<TestLogin> {
               ),
               obscureText: true,
             ),
-
             TextButton(
               onPressed: () {
                 forgotPassword();

@@ -5,7 +5,6 @@ import 'package:flutter/material.dart';
 import 'package:homework5/darwer.dart';
 import 'package:homework5/news.dart';
 import 'package:http/http.dart' as http;
-// import 'package:news/news.dart';
 
 class ThaiNews extends StatefulWidget {
   const ThaiNews({Key? key}) : super(key: key);
@@ -28,7 +27,6 @@ class _HomePageState extends State<ThaiNews> {
     if (response.statusCode == 200) {
       var responseJson = json.decode(response.body);
       List<dynamic> articles = responseJson['articles'];
-      // Map the response to NewsThailand objects
       newsList = articles.map((m) => NewsThailand.fromJson(m)).toList();
       return newsList;
     } else {
@@ -39,7 +37,6 @@ class _HomePageState extends State<ThaiNews> {
   @override
   void initState() {
     super.initState();
-    // Fetch news data when the widget is initialized
     fetchNews();
   }
 

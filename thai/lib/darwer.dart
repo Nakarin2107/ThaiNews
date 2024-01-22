@@ -2,12 +2,9 @@
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-// import 'package:homework5/login.dart'
 import 'package:homework5/my_home_page.dart';
 import 'package:homework5/test.dart';
 import 'package:homework5/thai%20news.dart';
-// import 'package:homework5/welcome.dart';
-// import 'package:homework5/proflie.dart';
 
 class MyDrawer extends StatelessWidget {
   const MyDrawer({super.key});

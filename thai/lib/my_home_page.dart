@@ -34,18 +34,18 @@ class _MyHomePageState extends State<MyHomePage> {
               "สนุกกับประสบการณ์การอ่านข่าว",
               style: TextStyle(
                 color: Colors.black,
-                fontSize: 26, // เพิ่มขนาดของตัวหนังสือ
+                fontSize: 26,
                 fontWeight: FontWeight.bold,
                 height: 1.5,
               ),
-              textAlign: TextAlign.center, // จัดตำแหน่งข้อความตามกฎของภาษา
+              textAlign: TextAlign.center,
             ),
             SizedBox(height: 10),
             Text(
               'เริ่มการสำรวจข่าวของเราอย่างง่ายดายเพียงแค่\nไม่กี่คลิ๊ก พบเหตุการณ์ที่น่าสนใจ และความสำคัญทันทีที่คลิกเข้ามา',
               style: TextStyle(
                 color: Colors.black54,
-                fontSize: 18, // เพิ่มขนาดของตัวหนังสือ
+                fontSize: 18,
               ),
               textAlign: TextAlign.center,
             ),
@@ -67,7 +67,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     SizedBox(width: 8),
                     Text(
                       'Next',
-                      style: TextStyle(fontSize: 20), // เพิ่มขนาดของตัวหนังสือ
+                      style: TextStyle(fontSize: 20),
                     ),
                   ],
                 ),
